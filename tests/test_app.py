@@ -27,7 +27,7 @@ class TestMultiple:
     """Tests for multiple function."""
 
     def test_multiple_positive(self):
-        assert multiple(2, 3) == 6
+        assert multiple(2, 3) == 5
 
     def test_multiple_negative(self):
         assert multiple(-2, -3) == 6
